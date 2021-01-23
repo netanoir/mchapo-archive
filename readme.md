@@ -1,0 +1,2 @@
+# mchapo archive
+mchapo archive is a zine archiving project by Neta Bomani originally started for the 100 days of making class in the Interactive Telecommunications program at NYU Tisch School of the Arts taught by Katherine Dillon. Beginning on January 28, 2021, Neta will post a zine study and/or experiment.
