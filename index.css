@@ -14,8 +14,8 @@ body {
   background-color: black;
   color: white;
   font-family:  Times, serif;
-  font-size: 4rem;
-  line-height: 4.125rem;
+  font-size: 1.75vw;
+  line-height: 110%;
   font-weight: normal;
   font-style: normal;
   text-transform: lowercase;
@@ -57,7 +57,7 @@ body {
 hr {
   border: 1px solid white;
   width: 100vw;
-  margin-bottom: 1rem;
+  margin-bottom: 1vw;
   padding: 0 !important;
 }
 
@@ -65,11 +65,11 @@ hr {
   background-color: transparent;
   color: white;
   font-family:  Times, serif;
-  font-size: 4rem;
+  font-size: 2vw;
   font-weight: normal;
   cursor: help;
   padding-top: 5%;
-  padding-left: 2rem;
+  padding-left: 2vw;
   width: 100%;
   border: none;
   text-align: left;
@@ -125,21 +125,25 @@ ul li:before {
 }
 
 p, h1, h2, h3, ul {
-  margin: 2rem;
+  margin: 2vw;
 }
 
 h2 {
   font-family: Courier, monospace;
   font-variant: small-caps;
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: normal;
   transform: rotate(-10deg);
 }
 
 h3 {
-  font-size: 3rem;
-  line-height: 3.25rem;
+  font-size: 3vw;
+  line-height: 3.25vw;
 }
+
+/* button.collapse {
+  font-size: 1.5vw;
+} */
 
 p {
   margin-top: 5%;
@@ -158,8 +162,9 @@ img {
 
 blockquote {
   margin-top: 0;
-  font-size: 2.5rem;
-  line-height: 2.75rem;
+  font-size: 1vw;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 110%;
   font-style: italic;
   text-align: center;
 }
@@ -211,4 +216,33 @@ a.channel {
   display: block;
   margin: 0 auto 10px auto;
   max-width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 4vw;
+  }
+  
+  .gift-wrap {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    width: 100%;
+    border-right: none;
+  }
+
+  .left {
+    height: 40%;
+  }
+
+  .right {
+    height: 60%;
+  }
+
+  .block,
+  .channel {
+    max-height: 35% !important;
+  }
 }
