@@ -14,7 +14,7 @@ body {
   background-color: black;
   color: white;
   font-family:  Times, serif;
-  font-size: 1.75vw;
+  font-size: 2.75vw;
   line-height: 110%;
   font-weight: normal;
   font-style: normal;
@@ -42,7 +42,7 @@ body {
 .left {
   width: 40%;
   overflow-x: hidden;
-  border-right: 2px solid white;
+  border-right: 0.125vw solid white;
 }
 
 .right {
@@ -55,7 +55,7 @@ body {
 }
 
 hr {
-  border: 1px solid white;
+  border: 0.025vw solid white;
   width: 100vw;
   margin-bottom: 1vw;
   padding: 0 !important;
@@ -74,7 +74,7 @@ hr {
   border: none;
   text-align: left;
   outline: none;
-  border-bottom: 2px solid white;
+  border-bottom: 0.125vw  solid white;
   width: 100vw;
 }
 
@@ -96,9 +96,10 @@ svg {
   overflow: hidden;
 }
 
-a, a:active, a:hover {
+a, a:active {
   color: white;
   font-family: Courier, monospace;
+  font-weight: normal;
   text-decoration: none;
 }
 
@@ -125,7 +126,7 @@ ul li:before {
 }
 
 p, h1, h2, h3, ul {
-  margin: 2vw;
+  margin: 1.75vw;
 }
 
 h2 {
@@ -137,13 +138,13 @@ h2 {
 }
 
 h3 {
-  font-size: 3vw;
-  line-height: 3.25vw;
+  font-size: 3.5vw;
+  line-height: 110%;
 }
 
-/* button.collapse {
-  font-size: 1.5vw;
-} */
+button.collapse {
+  font-size: 2.75vw;
+}
 
 p {
   margin-top: 5%;
@@ -190,7 +191,7 @@ code {
   display: flex !important;
   padding: 15px;
   align-items: stretch;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   width: 35%;
   margin-bottom: 70px !important;
@@ -208,7 +209,7 @@ a.channel {
 }
 
 a.channel {
-  border: 2px solid white !important;
+  border: 0.025vw  solid white !important;
   min-height: 300px;
 }
 
@@ -221,7 +222,7 @@ a.channel {
 
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 4vw;
+    font-size: 7vw;
   }
   
   .gift-wrap {
@@ -231,6 +232,7 @@ a.channel {
   .left, .right {
     width: 100%;
     border-right: none;
+    overflow: scroll;
   }
 
   .left {
@@ -241,8 +243,14 @@ a.channel {
     height: 60%;
   }
 
-  .block,
-  .channel {
-    max-height: 35% !important;
+  h2,
+  h3,
+  button.collapse {
+    font-size: 7vw;
   }
+
+  .block, .channel {
+    width: 100%;
+  }
+
 }
