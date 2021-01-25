@@ -74,7 +74,7 @@ hr {
   border: none;
   text-align: left;
   outline: none;
-  border-bottom: 0.125vw  solid white;
+  border-bottom: 0.125vw solid white;;
   width: 100vw;
 }
 
@@ -237,6 +237,7 @@ a.channel {
 
   .left {
     height: 40%;
+    border-bottom: 0.125vw solid white;
   }
 
   .right {
