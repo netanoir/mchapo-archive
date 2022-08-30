@@ -237,7 +237,7 @@ a.channel {
 
   .left {
     height: 40%;
-    border-bottom: 0.125vw solid #3A0605;
+    border-right: 0.125vw dashed #3A0605;
   }
 
   .right {
