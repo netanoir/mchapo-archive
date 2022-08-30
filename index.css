@@ -42,7 +42,7 @@ body {
 .left {
   width: 40%;
   overflow-x: hidden;
-  border-right: 0.125vw solid #3A0605;
+  border-right: 0.125vw dashed #3A0605;
 }
 
 .right {
@@ -74,7 +74,7 @@ hr {
   border: none;
   text-align: left;
   outline: none;
-  border-bottom: 0.125vw solid #3A0605;;
+  border-bottom: 0.125vw dashed #3A0605;;
   width: 100vw;
 }
 
