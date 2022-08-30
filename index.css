@@ -11,9 +11,9 @@ html {
 }
 
 body {
-  background-color: black;
-  color: white;
-  font-family:  Times, serif;
+  background-color: #b4cef9;
+  color: #3A0605;
+  font-family:  'Courier New', Courier, monospace;
   font-size: 2.75vw;
   line-height: 110%;
   font-weight: normal;
@@ -24,7 +24,7 @@ body {
 }
 
 ::selection {
-  background: white;
+  background: #3A0605;
 }
 
 .gift-wrap {
@@ -42,7 +42,7 @@ body {
 .left {
   width: 40%;
   overflow-x: hidden;
-  border-right: 0.125vw solid white;
+  border-right: 0.125vw solid #3A0605;
 }
 
 .right {
@@ -55,16 +55,16 @@ body {
 }
 
 hr {
-  border: 0.025vw solid white;
-  width: 100vw;
+  border: 0.025vw dashed #3A0605;
+  width: 25%;
   margin-bottom: 1vw;
   padding: 0 !important;
 }
 
 .collapse {
   background-color: transparent;
-  color: white;
-  font-family:  Times, serif;
+  color: #3A0605;
+  font-family:  'Courier New', Courier, monospace;
   font-size: 2vw;
   font-weight: normal;
   cursor: help;
@@ -74,7 +74,7 @@ hr {
   border: none;
   text-align: left;
   outline: none;
-  border-bottom: 0.125vw solid white;;
+  border-bottom: 0.125vw solid #3A0605;;
   width: 100vw;
 }
 
@@ -97,7 +97,7 @@ svg {
 }
 
 a, a:active {
-  color: white;
+  color: #3A0605;
   font-family: Courier, monospace;
   font-weight: normal;
   text-decoration: none;
@@ -171,8 +171,8 @@ blockquote {
 }
 
 code {
-  background: black;
-  color: white;
+  background-color: #3A0605;
+  color: #b4cef9;
   padding: 0.125em;
 }
 
@@ -209,7 +209,7 @@ a.channel {
 }
 
 a.channel {
-  border: 0.025vw  solid white !important;
+  border: 0.025vw  solid #3A0605 !important;
   min-height: 300px;
 }
 
@@ -237,7 +237,7 @@ a.channel {
 
   .left {
     height: 40%;
-    border-bottom: 0.125vw solid white;
+    border-bottom: 0.125vw solid #3A0605;
   }
 
   .right {
